@@ -836,6 +836,73 @@ textarea {
   color: var(--clr-primary);
   background-color: var(--clr-secondary);
 }
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 3%;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: updown 1s alternate-reverse infinite;
+}
+
+@keyframes updown {
+  to {
+    transform: translateY(-10px);
+  }
+
+  from {
+    transform: translateY(0px);
+  }
+}
+.svghover_color:hover rect {
+  transition: all 300ms linear;
+}
+.svghover_color:hover rect {
+  fill: var(--clr-secondary);
+}
+
+/* pre-loader */
+
+.fix-screen {
+  overflow: hidden !important;
+  height: 100vh;
+}
+
+.loading {
+  height: 100vh;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100000000;
+}
+
+.loading_svg {
+  animation: zoomin 1.5s ease-in-out infinite;
+  width: 200px;
+}
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  0% {
+    transform: scale(1);
+  }
+}
+
 /* MEDIA=================> */
 @media (min-width: 576px) {
   :root {
