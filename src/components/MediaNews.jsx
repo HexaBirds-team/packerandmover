@@ -7,17 +7,33 @@ function MediaNews() {
     <>
       <div className="bg_dark py-5">
         <Container className="py-5">
-          <h2 className="ff_rufina fs_7xl fw_bold text_light">
+          <h2
+            className="ff_rufina fs_7xl fw_bold text_light"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             Media / <span className="text_secondary">Newsp</span>
           </h2>
           <Row className="pt-1">
             {MapData.slice(10, 13).map((value) => {
               const { image, tittle, paragraph, id, hadding } = value;
               return (
-                <Col xs={12} md={6} lg={4} key={id} className="pt-4">
+                <Col
+                  xs={12}
+                  md={6}
+                  lg={4}
+                  key={id}
+                  className="pt-4"
+                  data-aos="zoom-in"
+                  data-aos-duration="700"
+                  data-aos-offset="200"
+                >
                   <div className="bg_light hover_scale h-100">
                     <div className="overflow-hidden">
-                      <div className="img_overlay position-relative"><img className="w-100" src={image} alt="images" /></div>
+                      <div className="img_overlay position-relative">
+                        <img className="w-100" src={image} alt="images" />
+                      </div>
                     </div>
                     <div className="p-3">
                       <div className="d-flex pb-2">

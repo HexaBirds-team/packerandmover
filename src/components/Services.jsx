@@ -7,10 +7,20 @@ function Services() {
     <>
       <section className="bg_semiprimary py-4">
         <Container className="py-5">
-          <h2 className=" ff_rufina fs_7xl fw_bold text_primary">
+          <h2
+            className=" ff_rufina fs_7xl fw_bold text_primary"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             Our Excellent <span className=" text_secondary">Services</span>
           </h2>
-          <p className=" ff_opensans fs_md fw_regular text_dark">
+          <p
+            className=" ff_opensans fs_md fw_regular text_dark"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             We provides our clients excellent, trustworthy and safe logistics
             services, having all you need to insure your freight without
             depending where the destination is or how big is the shipment.
@@ -20,7 +30,12 @@ function Services() {
               const { image, tittle, paragraph, id } = value;
               return (
                 <Col xs={12} md={6} lg={4} className="pt-4" key={id}>
-                  <div className="bg_light d-flex py-4 px-4 hover_overlay h-100">
+                  <div
+                    className="bg_light d-flex py-4 px-4 hover_overlay h-100"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-offset="200"
+                  >
                     <img
                       height={60}
                       width={60}

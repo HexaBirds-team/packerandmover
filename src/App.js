@@ -12,6 +12,8 @@ import OurServicesPage from "./components/OurServicesPage";
 import BackToTop from "./components/BackToTop";
 import { useState, useEffect } from "react";
 import PreLoader from "./components/PreLoader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -20,6 +22,9 @@ function App() {
       setLoading(false);
       document.body.classList.remove("fix-screen");
     }, 2400);
+  }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
   }, []);
   return (
     <>

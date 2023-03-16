@@ -26,23 +26,49 @@ export default function ClientSay() {
     <div className="bg_semisecondary py-5">
       <Container className="py-5">
         <div className="text-center pb-5">
-          <h2 className="ff_rufina fs_7xl fw_bold text_primary">
+          <h2
+            className="ff_rufina fs_7xl fw_bold text_primary"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             What our <span className="text_secondary">client say</span>
           </h2>
-          <p className="ff_opensans fs_lg fw_regular text_dark">
+          <p
+            className="ff_opensans fs_lg fw_regular text_dark"
+            data-aos="fade-right"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             Just Look What Our Clients Say.
           </p>
-          <span className="span_line d-inline-block"></span>
+          <span
+            className="span_line d-inline-block"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          ></span>
         </div>
 
         <Slider {...settings}>
           {MapData.slice(6, 10).map((value) => {
             const { id, image, hadding, tittle, paragraph } = value;
             return (
-              <div className="px-2" key={id}>
+              <div
+                className="px-2"
+                key={id}
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+              >
                 <div className="bg_light p-2 p-lg-4 d-flex h-100">
                   <div className="text-center">
-                    <img width={65} className=" rounded-circle" src={image} alt="Images" />
+                    <img
+                      width={65}
+                      className=" rounded-circle"
+                      src={image}
+                      alt="Images"
+                    />
                     <span className="bottomspan d-inline-block"></span>
                   </div>
                   <div className="ps-3 ps-sm-4">

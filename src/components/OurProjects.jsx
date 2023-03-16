@@ -13,12 +13,23 @@ function OurProjects() {
     <>
       <div className="bg_dark py-5">
         <Container fluid>
-          <h2 className="ff_rufina fw_regular fs_7xl text_light pb-5 mb-0 text-center">
+          <h2
+            className="ff_rufina fw_regular fs_7xl text_light pb-5 mb-0 text-center"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-offset="200"
+          >
             Our Latest <span className="text_secondary">Projects</span>
           </h2>
 
           <div className="d-grid gap-2 gap-md-4">
-            <div className="item_1 w-100 h-100 position-relative overflow-hidden">
+            <div
+              className="item_1 w-100 h-100 position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="100"
+            >
               <img
                 className="w-100 h-100"
                 src={CompanyStock2}
@@ -74,7 +85,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_2 w-100 h-100 position-relative overflow-hidden ">
+            <div
+              className="item_2 w-100 h-100 position-relative overflow-hidden "
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="200"
+            >
               <img
                 className="w-100 h-100"
                 src={TATASIGNATruck}
@@ -130,7 +147,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_3 w-100 h-100  position-relative overflow-hidden">
+            <div
+              className="item_3 w-100 h-100  position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="300"
+            >
               <img
                 className="w-100 h-100"
                 src={DeliveryVan}
@@ -186,7 +209,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_4 w-100 h-100  position-relative overflow-hidden">
+            <div
+              className="item_4 w-100 h-100  position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="400"
+            >
               <img
                 className="w-100 h-100"
                 src={GridContainer}
@@ -242,7 +271,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_5 w-100 h-100 position-relative overflow-hidden">
+            <div
+              className="item_5 w-100 h-100 position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="500"
+            >
               <img className="w-100 h-100" src={Boxes} alt="Boxes" />
               <div className="position-absolute top-50 start-50 translate-middle Hover_Icon w-100 h-100 d-flex flex-column align-items-center justify-content-center">
                 <div className="opacity-0 icon_opacity">
@@ -294,7 +329,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_6 w-100 h-100 position-relative overflow-hidden">
+            <div
+              className="item_6 w-100 h-100 position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="600"
+            >
               <img
                 className="w-100 h-100"
                 src={CompanyStock}
@@ -350,7 +391,13 @@ function OurProjects() {
                 </div>
               </div>
             </div>
-            <div className="item_7 w-100 h-100 position-relative overflow-hidden">
+            <div
+              className="item_7 w-100 h-100 position-relative overflow-hidden"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="700"
+            >
               <img
                 className="w-100 h-100"
                 src={MaerskContainer}
@@ -408,7 +455,13 @@ function OurProjects() {
             </div>
           </div>
           <div className="text-center pt-5">
-            <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button">
+            <button
+              className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="800"
+            >
               View All Projects
             </button>
           </div>

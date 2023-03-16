@@ -48,7 +48,13 @@ export default function HeroSlickSlider() {
           <span className="text_secondary"> process</span>
         </h2>
         <Slider {...settings} className="movedots">
-          <div className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3">
+          <div
+            className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="100"
+          >
             <div className="working_icon d-flex justify-content-center mx-auto position-relative transition_200ms">
               <img width={60} src={PeopleCarry} alt="PeopleCarry" />
               <span className="count ff_opensans fw_semibold fs_xl d-flex justify-content-center align-items-center transition_200ms">
@@ -64,7 +70,13 @@ export default function HeroSlickSlider() {
               ability.
             </p>
           </div>
-          <div className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3">
+          <div
+            className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="300"
+          >
             <div className="working_icon d-flex justify-content-center mx-auto position-relative transition_200ms">
               <img width={60} src={HandleWithCare} alt="HandleWithCare" />
 
@@ -81,7 +93,13 @@ export default function HeroSlickSlider() {
               ability.
             </p>
           </div>
-          <div className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3">
+          <div
+            className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="500"
+          >
             <div className="working_icon d-flex justify-content-center mx-auto position-relative transition_200ms">
               <img width={60} src={OpenBox} alt="OpenBox" />
               <span className="count ff_opensans fw_semibold fs_xl d-flex justify-content-center align-items-center transition_200ms">
@@ -97,7 +115,13 @@ export default function HeroSlickSlider() {
               ability.
             </p>
           </div>
-          <div className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3">
+          <div
+            className="text-center pt-4 pt-lg-5 mt-lg-4 hover_color px-3"
+            data-aos="zoom-in"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="700"
+          >
             <div className="working_icon d-flex justify-content-center mx-auto position-relative transition_200ms">
               <img width={60} src={CourierLorry} alt="CourierLorry" />
               <span className="count ff_opensans fw_semibold fs_xl d-flex justify-content-center align-items-center transition_200ms">

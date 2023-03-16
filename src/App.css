@@ -474,9 +474,10 @@ li {
   z-index: 1;
   transition: all 500ms linear;
   overflow: hidden;
+  box-shadow: 0px 6px 10px #228dcb9e;
 }
 .submit_button:hover {
-  color: var(--clr-light);
+  color: var(--clr-light) !important;
 }
 .submit_button::after {
   content: "";
@@ -517,10 +518,10 @@ li {
 .movedots .slick-dots {
   bottom: -30px;
 }
-.slick-initialized .slick-slide .container h3 {
+/* .slick-initialized .slick-slide .container h3 {
   transition: 500ms;
   animation: downtoup 2s linear 3s 4 normal;
-}
+} */
 
 .span_line {
   height: 2px;
@@ -774,7 +775,9 @@ li {
   fill: var(--clr-dark);
 }
 .border_secondary {
-  border: 2px solid var(--clr-secondary);
+  background: #ffffff;
+  box-shadow: 1px 3px 10px rgb(63 65 71 / 73%);
+  border-radius: 5px;
 }
 textarea {
   resize: none;

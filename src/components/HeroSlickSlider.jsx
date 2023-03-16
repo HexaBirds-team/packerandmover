@@ -6,7 +6,7 @@ export default function HeroSlickSlider() {
   var settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    // autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -16,11 +16,21 @@ export default function HeroSlickSlider() {
       <Slider {...settings}>
         <div className="bg_img_Containers  d-flex flex-column justify-content-center pt-sm-5">
           <Container className=" pt-sm-5 mt-sm-5">
-            <h3 className="ff_rufina fw_bold fs_9xl text_light ">
+            <h3
+              className="ff_rufina fw_bold fs_9xl text_light "
+              data-aos="fade-down"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               Moving every customer
               <span className="d-lg-block"> with care.</span>
             </h3>
-            <p className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3  ">
+            <p
+              className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3  "
+              data-aos="fade-right"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               We constantly delivering the best is taken care of with the help
               of
               <span className="d-lg-block">
@@ -28,7 +38,12 @@ export default function HeroSlickSlider() {
               </span>
               Attractiveness.
             </p>
-            <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button ">
+            <button
+              className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button "
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               Know more
             </button>
           </Container>
@@ -39,7 +54,12 @@ export default function HeroSlickSlider() {
               We Preferred Safety,
               <span className="d-lg-block"> Quality, Professionalism</span>
             </h3>
-            <p className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3">
+            <p
+              className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3  "
+              data-aos="fade-right"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               We constantly delivering the best is taken care of with the help
               of
               <span className="d-lg-block">
@@ -47,7 +67,12 @@ export default function HeroSlickSlider() {
               </span>
               Attractiveness.
             </p>
-            <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button">
+            <button
+              className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button "
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               Know more
             </button>
           </Container>
@@ -59,7 +84,12 @@ export default function HeroSlickSlider() {
               From here You’re
               <span className="d-lg-block"> Almost There.</span>
             </h3>
-            <p className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3">
+            <p
+              className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3  "
+              data-aos="fade-right"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               We constantly delivering the best is taken care of with the help
               of
               <span className="d-lg-block">
@@ -67,7 +97,12 @@ export default function HeroSlickSlider() {
               </span>
               Attractiveness.
             </p>
-            <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button">
+            <button
+              className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button "
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               Know more
             </button>
           </Container>
@@ -78,7 +113,12 @@ export default function HeroSlickSlider() {
               Let Us Move You With
               <span className="d-lg-block"> Honesty And Greatness.</span>
             </h3>
-            <p className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3">
+            <p
+              className="ff_opensans fs_lg fw_light text_light py-sm-4 my-3  "
+              data-aos="fade-right"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               We constantly delivering the best is taken care of with the help
               of
               <span className="d-lg-block">
@@ -86,7 +126,12 @@ export default function HeroSlickSlider() {
               </span>
               Attractiveness.
             </p>
-            <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button">
+            <button
+              className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button "
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="2400"
+            >
               Know more
             </button>
           </Container>

@@ -30,23 +30,47 @@ function HelpYou() {
   return (
     <>
       <Container className=" py-5 my-lg-4">
-        <h2 className=" ff_rufina fs_7xl fw_bold text_primary">
+        <h2
+          className=" ff_rufina fs_7xl fw_bold text_primary"
+          data-aos="fade-down"
+          data-aos-duration="700"
+          data-aos-offset="200"
+          data-aos-delay="100"
+        >
           HAPPY TO HELP YOU
         </h2>
-        <p className=" ff_opensans fs_md fw_regular text_dark">
+        <p
+          className=" ff_opensans fs_md fw_regular text_dark"
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-offset="200"
+          data-aos-delay="100"
+        >
           You can give us a call, drop us an email or book a one-to-one
           appointment, we are here to help you and detangle your journey. We are
           looking forward to hearing from you.
         </p>
         <Row className="pt-3 pt-lg-5">
           <Col xs={12} lg={5}>
-            <h3 className=" ff_rufina fw_bold fs_xl text_primary">
+            <h3
+              className=" ff_rufina fw_bold fs_xl text_primary"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="100"
+            >
               You can give us a call, drop us an email or book a one-to-one
               appointment, we are here to help you and detangle your journey. We
               are looking forward to hearing from you.
             </h3>
             <ul className="ps-0 py-3 py-lg-5">
-              <li className=" ff_rufina fw_bold fs_xl text_primary">
+              <li
+                className=" ff_rufina fw_bold fs_xl text_primary"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="100"
+              >
                 <img className="pe-2" src={LocationIcon} alt="LocationIcon" />{" "}
                 Address :
                 <a
@@ -56,7 +80,13 @@ function HelpYou() {
                   Gali no. 1 , Bansal Complex, Rishi Nagar ,Hisar,Haryana
                 </a>
               </li>
-              <li className=" ff_rufina fw_bold fs_xl text_primary py-2">
+              <li
+                className=" ff_rufina fw_bold fs_xl text_primary py-2"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="300"
+              >
                 <img className="pe-2" src={DillPhone} alt="DillPhone" /> Phone :
                 <a
                   className="ms-1 ff_opensans fs_md fw_regular text_dark"
@@ -65,7 +95,13 @@ function HelpYou() {
                   8950402201
                 </a>
               </li>
-              <li className=" ff_rufina fw_bold fs_xl text_primary">
+              <li
+                className=" ff_rufina fw_bold fs_xl text_primary"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="500"
+              >
                 <img className="pe-2" src={EmailIcon} alt="EmailIcon" /> Email :
                 <a
                   className="ms-1 ff_opensans fs_md fw_regular text_dark"
@@ -77,6 +113,10 @@ function HelpYou() {
             </ul>
             <div className=" d-flex gap-3">
               <a
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="100"
                 className="socialmedia_icon d-flex align-items-center justify-content-center"
                 href="#"
               >
@@ -94,6 +134,10 @@ function HelpYou() {
                 </svg>
               </a>
               <a
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="300"
                 className="socialmedia_icon d-flex align-items-center justify-content-center"
                 href="#"
               >
@@ -113,6 +157,10 @@ function HelpYou() {
                 </svg>
               </a>
               <a
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="500"
                 className="socialmedia_icon d-flex align-items-center justify-content-center"
                 href="#"
               >
@@ -130,6 +178,10 @@ function HelpYou() {
                 </svg>
               </a>
               <a
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-offset="200"
+                data-aos-delay="700"
                 className="socialmedia_icon d-flex align-items-center justify-content-center"
                 href="#"
               >
@@ -149,7 +201,7 @@ function HelpYou() {
             </div>
           </Col>
           <Col xs={12} lg={7} className="pt-4 pt-lg-0">
-            <form
+            {/* <form
               onSubmit={FormSubmitNow}
               className="w-100 p-3 border_secondary"
             >
@@ -217,6 +269,81 @@ function HelpYou() {
               ></textarea>
 
               <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary submit_button my-4">
+                Send Message
+              </button>
+            </form> */}
+            <form
+              data-aos="zoom-in"
+              data-aos-duration="700"
+              data-aos-offset="200"
+              data-aos-delay="200"
+              onSubmit={FormSubmitNow}
+              className="w-100 p-3 border_secondary"
+            >
+              <Row>
+                <Col xs={12} md={6}>
+                  <input
+                    className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_dark border_secondary"
+                    type="text"
+                    placeholder="Name"
+                    name="Name"
+                    id="Name"
+                    onChange={SubmitForm}
+                    value={formsubmit.Name}
+                    required
+                  />
+                </Col>
+                <Col xs={12} md={6}>
+                  <input
+                    className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_dark border_secondary"
+                    type="email"
+                    placeholder="Email"
+                    name="Email"
+                    id="Email"
+                    onChange={SubmitForm}
+                    value={formsubmit.Email}
+                    required
+                  />
+                </Col>
+                <Col xs={12} md={6}>
+                  <input
+                    className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_dark border_secondary"
+                    type="text"
+                    placeholder="Subject"
+                    name="Subject"
+                    id="Subject"
+                    onChange={SubmitForm}
+                    value={formsubmit.Subject}
+                    required
+                  />
+                </Col>
+                <Col xs={12} md={6}>
+                  <input
+                    className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_dark border_secondary"
+                    type="number"
+                    placeholder="Phone"
+                    name="Phone"
+                    id="Phone"
+                    onChange={SubmitForm}
+                    value={formsubmit.Phone}
+                    required
+                  />
+                </Col>
+              </Row>
+              <textarea
+                cols="30"
+                rows="8"
+                className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_dark border_secondary"
+                type="text"
+                placeholder="Message"
+                name="Message"
+                id="Message"
+                onChange={SubmitForm}
+                value={formsubmit.Message}
+                required
+              ></textarea>
+
+              <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary submit_button rounded-2 my-4">
                 Send Message
               </button>
             </form>

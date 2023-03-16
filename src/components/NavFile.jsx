@@ -12,7 +12,7 @@ function NavFile() {
     useContext(ContextPage);
   return (
     <>
-      <div className=" position-relative overflow-hi dden">
+      <div className=" position-relative overflow-hi dden ">
         <div className="bg_dark py-3">
           <Container>
             <div className="  d-flex align-items-center justify-content-center justify-content-md-between">
@@ -229,6 +229,7 @@ function NavFile() {
                         <li>
                           <NavLink
                             to="/OurServicesPage"
+                            onClick={() => setNavOpen(false)}
                             className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
                           >
                             Services Details 1
@@ -240,150 +241,6 @@ function NavFile() {
                             href="#"
                           >
                             Services Details 2
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="linkopen position-relative  py-lg-4">
-                      <a
-                        className="navlinkl d-inline-block mt-4 mt-lg-0"
-                        href="#"
-                      >
-                        Projects
-                      </a>
-                      <ul className="dropdown about_dropdown ps-0">
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Projects
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Project Full Screen
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover border-bottom-0 "
-                            href="#"
-                          >
-                            Project Masonry
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="linkopen position-relative  py-lg-4">
-                      <a
-                        className="navlinkl d-inline-block mt-4 mt-lg-0"
-                        href="#"
-                      >
-                        Blog
-                      </a>
-                      <ul className="dropdown about_dropdown ps-0">
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Blog
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            blog Style 2
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover border-bottom-0 "
-                            href="#"
-                          >
-                            Blog Details
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="linkopen position-relative  py-lg-4">
-                      <a
-                        className="navlinkl d-inline-block mt-4 mt-lg-0"
-                        href="#"
-                      >
-                        Pages
-                      </a>
-                      <ul className="dropdown about_dropdown ps-0">
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Testimonials
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Faq's
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover border-bottom-0 "
-                            href="#"
-                          >
-                            Pricing
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="linkopen position-relative  py-lg-4">
-                      <a
-                        className="navlinkl d-inline-block mt-4 mt-lg-0"
-                        href="#"
-                      >
-                        Shop
-                      </a>
-                      <ul className="dropdown Services_dropdown ps-0">
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Main shop page
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Product Detail Page
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover "
-                            href="#"
-                          >
-                            Cart Page
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className=" text-nowrap py-2 d-inline-block hoverlink w-100 linkhover border-bottom-0 "
-                            href="#"
-                          >
-                            Checkout
                           </a>
                         </li>
                       </ul>

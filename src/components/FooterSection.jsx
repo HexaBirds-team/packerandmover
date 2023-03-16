@@ -28,14 +28,28 @@ function FooterSection() {
       <Container>
         <Row>
           <Col xs={12} lg={3}>
-            <img src={PageLogo} alt="img" />
-            <p className=" ff_opensans fs_xsm fw_regular text_tertiary">
+            <img
+              data-aos="fade-left"
+              data-aos-duration="700"
+              src={PageLogo}
+              alt="img"
+            />
+            <p
+              className=" ff_opensans fs_xsm fw_regular text_tertiary"
+              data-aos="fade-right"
+              data-aos-duration="700"
+            >
               With our Experience of over 25+ Years in the Industry, the company
               is highly skilled and is equipped with the best of facilities to
               match all High Quality Moving Standards.
             </p>
             <div className=" d-flex gap-3 py-2">
-              <div className="footer_icon d-flex align-items-center justify-content-center">
+              <div
+                className="footer_icon d-flex align-items-center justify-content-center"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-delay="100"
+              >
                 <a href="#">
                   <svg
                     width="24"
@@ -51,7 +65,12 @@ function FooterSection() {
                   </svg>
                 </a>
               </div>
-              <div className="footer_icon d-flex align-items-center justify-content-center">
+              <div
+                className="footer_icon d-flex align-items-center justify-content-center"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-delay="300"
+              >
                 <a href="#">
                   <svg
                     width="24"
@@ -69,7 +88,12 @@ function FooterSection() {
                   </svg>
                 </a>
               </div>
-              <div className="footer_icon d-flex align-items-center justify-content-center">
+              <div
+                className="footer_icon d-flex align-items-center justify-content-center"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-delay="500"
+              >
                 <a href="#">
                   <svg
                     width="24"
@@ -92,7 +116,12 @@ function FooterSection() {
                   </svg>
                 </a>
               </div>
-              <div className="footer_icon d-flex align-items-center justify-content-center">
+              <div
+                className="footer_icon d-flex align-items-center justify-content-center"
+                data-aos="zoom-in"
+                data-aos-duration="700"
+                data-aos-delay="700"
+              >
                 <a href="#">
                   <svg
                     width="24"
@@ -114,14 +143,27 @@ function FooterSection() {
             <Row>
               <Col xs={12} sm={6} md={4} className="pt-4 pt-lg-0">
                 <ul className="ps-0 ps-lg-5">
-                  <li className=" ff_rufina fs_xl fw_regular text_light">
+                  <li
+                    className=" ff_rufina fs_xl fw_regular text_light"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="100"
+                  >
                     Our Services
                   </li>
-                  <span className="spanbottom d-inline-block my-3"></span>
+                  <span
+                    className="spanbottom d-inline-block my-3"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="200"
+                  ></span>
                   <li>
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="300"
                     >
                       Warehousing
                     </a>
@@ -130,6 +172,9 @@ function FooterSection() {
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link mt-2 d-inline-block"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="400"
                     >
                       Machinery Transport
                     </a>
@@ -138,6 +183,9 @@ function FooterSection() {
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link mt-2 d-inline-block"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="500"
                     >
                       Transportation
                     </a>
@@ -146,6 +194,9 @@ function FooterSection() {
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link mt-2 d-inline-block"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="600"
                     >
                       Multimodal Transportation
                     </a>
@@ -154,14 +205,27 @@ function FooterSection() {
               </Col>
               <Col xs={12} sm={6} md={4} className="pt-4 pt-lg-0">
                 <ul className="ps-0">
-                  <li className=" ff_rufina fs_xl fw_regular text_light">
+                  <li
+                    className=" ff_rufina fs_xl fw_regular text_light"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="100"
+                  >
                     Contact Details
                   </li>
-                  <span className="spanbottom d-inline-block my-3"></span>
+                  <span
+                    className="spanbottom d-inline-block my-3"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="200"
+                  ></span>
                   <li>
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="300"
                     >
                       (1234) 567 8910
                     </a>
@@ -170,6 +234,9 @@ function FooterSection() {
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link mt-2 d-inline-block"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="400"
                     >
                       000, hisar, India
                     </a>
@@ -178,6 +245,9 @@ function FooterSection() {
                     <a
                       className=" ff_opensans fs_xsm fw_regular text_tertiary footer_link mt-2 d-inline-block"
                       href="#"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="500"
                     >
                       hexabirdspvtltd@gmail.com
                     </a>
@@ -186,12 +256,25 @@ function FooterSection() {
               </Col>
               <Col xs={12} sm={6} md={4} className="pt-4 pt-lg-0">
                 <ul className="ps-0">
-                  <li className=" ff_rufina fs_xl fw_regular text_light">
+                  <li
+                    className=" ff_rufina fs_xl fw_regular text_light"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="100"
+                  >
                     Quick Inquiry
                   </li>
-                  <span className="spanbottom d-inline-block my-3"></span>
+                  <span
+                    className="spanbottom d-inline-block my-3"
+                    data-aos="zoom-in"
+                    data-aos-duration="700"
+                    data-aos-delay="200"
+                  ></span>
                   <form onSubmit={FormSubmitNow}>
                     <input
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="300"
                       className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_light"
                       type="text"
                       placeholder="Your Name"
@@ -202,8 +285,11 @@ function FooterSection() {
                       required
                     />
                     <input
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="400"
                       className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_light"
-                      type="text"
+                      type="email"
                       placeholder="Your Email"
                       name="YourEmail"
                       id="YourEmail"
@@ -212,6 +298,9 @@ function FooterSection() {
                       required
                     />
                     <input
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="500"
                       className="w-100 bg-transparent form_input my-2 py-2 ps-4 ff_opensans fs_xsm fw_regular text_light"
                       type="text"
                       placeholder="Message"
@@ -221,7 +310,12 @@ function FooterSection() {
                       value={formsubmit.Message}
                       required
                     />
-                    <button className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button mt-3">
+                    <button
+                      className="border-0 py-2 px-4 ff_opensans fs_md fw_bold text_primary bg_secondary Know_button mt-3"
+                      data-aos="zoom-in"
+                      data-aos-duration="700"
+                      data-aos-delay="600"
+                    >
                       submit
                     </button>
                   </form>
@@ -231,10 +325,22 @@ function FooterSection() {
           </Col>
         </Row>
         <div className=" d-md-flex align-items-center justify-content-between pt-4 mt-5 border_top">
-          <h2 className=" ff_opensans fs_xsm fw_regular text_light">
+          <h2
+            className=" ff_opensans fs_xsm fw_regular text_light"
+            data-aos="fade-right"
+            data-aos-duration="700"
+            data-aos-delay="100"
+            data-aos-offset="0"
+          >
             © Yoursite 2021 All Right Reserved.
           </h2>
-          <p className="ff_opensans fs_xsm fw_regular text_light pt-3 pt-md-0">
+          <p
+            className="ff_opensans fs_xsm fw_regular text_light pt-3 pt-md-0"
+            data-aos="fade-left"
+            data-aos-duration="700"
+            data-aos-delay="300"
+            data-aos-offset="0"
+          >
             Terms & Conditions | Privacy Policy | Disclaimer
           </p>
         </div>

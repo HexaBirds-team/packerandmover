@@ -8,17 +8,38 @@ function AboutOurExperts() {
     <>
       <div className="linear_gradient_white_black py-5">
         <Container className="py-4 ">
-          <h2 className=" ff_rufina fw_bold fs_7xl text_light text-center">
+          <h2
+            className=" ff_rufina fw_bold fs_7xl text_light text-center"
+            data-aos="fade-down"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="200"
+          >
             Our <span className=" text_secondary">Experts</span>
           </h2>
-          <p className=" ff_rufina fw_regular fs_xl text_tertiary pt-2 text-center">
+          <p
+            className=" ff_rufina fw_regular fs_xl text_tertiary pt-2 text-center"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-offset="200"
+            data-aos-delay="200"
+          >
             Our caregivers are trained specifically to provide in-home care.
           </p>
           <Row className=" pt-4">
             {MapData.slice(13, 17).map((value) => {
               const { id, image, hadding, tittle } = value;
               return (
-                <Col xs={12} sm={6} lg={3} className="pt-4" key={id}>
+                <Col
+                  xs={12}
+                  sm={6}
+                  lg={3}
+                  className="pt-4"
+                  key={id}
+                  data-aos="zoom-in"
+                  data-aos-duration="700"
+                  data-aos-offset="200"
+                >
                   <div className=" bg_light position-relative zindex_1 mencards pb-2">
                     <div className=" position-relative imgoverley overflow-hidden ">
                       <img
