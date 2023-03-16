@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import PageLogo from "../assets/images/svg/PageLogo.svg";
+import GrayLocationIcon from "../assets/images/svg/GrayLocationIcon.svg";
+import GrayPhone from "../assets/images/svg/GrayPhone.svg";
+import GrayEmailBox from "../assets/images/svg/GrayEmailBox.svg";
 
 function FooterSection() {
   const [formsubmit, setFormsubmit] = useState({
@@ -227,6 +230,7 @@ function FooterSection() {
                       data-aos-duration="700"
                       data-aos-delay="300"
                     >
+                      <img className="pe-4" src={GrayPhone} alt="GrayPhone" />
                       (1234) 567 8910
                     </a>
                   </li>
@@ -238,6 +242,11 @@ function FooterSection() {
                       data-aos-duration="700"
                       data-aos-delay="400"
                     >
+                      <img
+                        className="pe-4"
+                        src={GrayLocationIcon}
+                        alt="GrayLocationIcon"
+                      />
                       000, hisar, India
                     </a>
                   </li>
@@ -249,6 +258,11 @@ function FooterSection() {
                       data-aos-duration="700"
                       data-aos-delay="500"
                     >
+                      <img
+                        className="pe-4"
+                        src={GrayEmailBox}
+                        alt="GrayEmailBox"
+                      />
                       hexabirdspvtltd@gmail.com
                     </a>
                   </li>
