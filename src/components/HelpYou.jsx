@@ -34,7 +34,7 @@ function HelpYou() {
           className=" ff_rufina fs_7xl fw_bold text_primary"
           data-aos="fade-down"
           data-aos-duration="700"
-          data-aos-offset="200"
+          data-aos-offset="300"
           data-aos-delay="100"
         >
           HAPPY TO HELP YOU

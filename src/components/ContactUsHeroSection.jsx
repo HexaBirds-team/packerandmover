@@ -9,7 +9,7 @@ function ContactUsHeroSection() {
       <div className="bg_img_GreenAndRoad py-5">
         <Container className=" pt-5 mt-5">
           <h2
-            className=" ff_rufina fs_9xl fw_bold text_light"
+            className=" ff_rufina fs_9xl fw_bold text_light pt-5 mt-3"
             data-aos="fade-down"
             data-aos-duration="700"
             data-aos-offset="0"
