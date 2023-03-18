@@ -75,7 +75,7 @@ function NavFile() {
           </Container>
         </div>
         {scrollPosition > 58.4 ? (
-          <nav className="bg_semidark fixed-top zindex_2" id="Navbarf">
+          <nav className="bg_semidark fixed-top zindex_2">
             <Container>
               <div className=" d-lg-flex align-items-center justify-content-between ">
                 <div className="d-flex align-items-center justify-content-between">

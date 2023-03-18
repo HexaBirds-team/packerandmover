@@ -883,24 +883,8 @@ textarea {
 }
 
 .loading_svg {
-  animation: zoomin 1.5s ease-in-out infinite;
   width: 200px;
 }
-
-@keyframes zoomin {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1);
-  }
-
-  0% {
-    transform: scale(1);
-  }
-}
-
 /* MEDIA=================> */
 @media (min-width: 576px) {
   :root {
@@ -1021,10 +1005,7 @@ textarea {
   100% {
     transform: scale(1.5);
   }
-} /*End of Zoom in Keyframes */
-
-/* Zoom out Keyframes */
-
+}
 @keyframes zoomout {
   0% {
     transform: scale(1);
