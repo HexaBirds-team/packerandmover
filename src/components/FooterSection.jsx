@@ -38,7 +38,7 @@ function FooterSection() {
               alt="img"
             />
             <p
-              className=" ff_opensans fs_xsm fw_regular text_tertiary"
+              className=" ff_opensans fs_xsm fw_regular text_tertiary pt-4"
               data-aos="fade-right"
               data-aos-duration="700"
             >
